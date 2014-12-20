@@ -1,0 +1,182 @@
+.logo {
+  margin: 10px; }
+
+/*Este codigo elimina las barras de los portets*/
+.portlet-topper {
+  display: none; }
+
+.portlet-body {
+  background-color: white; }
+
+.portlet {
+  background-color: white; }
+
+#footer {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Calibri";
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  border: 1px solid #C8C9CA; }
+
+#heading {
+  /* background-color:#FCC50D; */
+  border-radius: 10px;
+  border: 1px solid #C8C9CA;
+  margin-bottom: 15px;
+  background: #FFFFFF; }
+
+.site-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* background-color:#FFFFFF; */ }
+
+p.developBy {
+  margin: 1px;
+  font-family: times;
+  padding: 0 0 10px 0;
+  /* text-align: center;
+  color: black;
+  font-size: 12px; */ }
+
+p.righs {
+  margin: 1px;
+  margin-top: 10px;
+  padding: 10px 0 0 0;
+  /* text-align: center;
+  color: black;
+  font-size: 12px; */ }
+
+p.respaldo {
+  margin: 1px;
+  /* text-align: center;
+  color: black;
+  font-size: 15px; */ }
+
+p.address {
+  margin: 1px; }
+
+p.phone {
+  margin: 1px; }
+
+span.redesSociales {
+  display: block;
+  float: right;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 15px 0 0 20px;
+  padding: 7px 17px 7px 40px;
+  position: relative;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5); }
+
+ul.redesSociales {
+  list-style-type: none;
+  margin: 0 0 0 0;
+  text-align: left; }
+
+ul.patrocinadores {
+  list-style-type: none;
+  margin: 0 0 0 0;
+  text-align: center; }
+
+li.redesSociales {
+  margin: 0 0 0 3px; }
+
+li.patrocinadores {
+  margin: 0 0 0 3px;
+  display: inline; }
+
+a.twiter {
+  background: url(../images/redesSociales/twitter.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  width: 40px;
+  height: 40px; }
+
+a.facebook {
+  background: url(../images/redesSociales/facebook.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  width: 40px;
+  height: 40px; }
+
+a.youtube {
+  background: url(../images/redesSociales/youtube.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  width: 40px;
+  height: 40px; }
+
+a.apps {
+  background: url(../images/parthners/apps.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  width: 125px;
+  height: 40px; }
+
+a.santanderapps {
+  background: url(../images/parthners/santanderapps.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  width: 133px;
+  height: 40px; }
+
+a.mintic {
+  background: url(../images/parthners/minticXX.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  width: 152px;
+  height: 40px; }
+
+a.alcaldiaPamplona {
+  background: url(../images/parthners/alcaldiaPamplona.jpg) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  width: 54px;
+  height: 40px; }
+
+a.vivedigital {
+  background: url(../images/parthners/vivedigital.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  width: 153px;
+  height: 39px; }
+
+input[type="text"], select, .aui-field-input-text, .aui-field-input {
+  border-radius: 4px;
+  background-color: #EEEEEE;
+  background-image: none;
+  background-repeat: no-repeat;
+  border: 1px solid #C8C9CA;
+  /* border-color: #BFBFBF #DEDEDE #DEDEDE #BFBFBF; */
+  /* font: 12px Arial, Helvetica, Verdana, sans-serif; */
+  padding: 5px 5px;
+  font-family: "Calibri";
+  font-size: 12px; }
+
+.aui-datepicker-select-wrapper select {
+  border-radius: 4px; }
+
+.select {
+  padding: 4px;
+  border-radius: 4px; }
+
