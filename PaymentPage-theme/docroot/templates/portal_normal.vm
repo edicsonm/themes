@@ -13,11 +13,12 @@
 <body class="$css_class">
 
 <a href="#main-content" id="skip-to-content">#language ("skip-to-content")</a>
+
 $theme.include($body_top_include)
 
-	#if ($is_signed_in)
-		#dockbar()
-	#end
+#if ($is_signed_in)
+	#dockbar()
+#end
 
 <div id="wrapper">
 	<header id="banner" role="banner">
@@ -69,11 +70,8 @@ $theme.include($body_top_include)
 	</div>
 
 	<footer id="footer" role="contentinfo">
-		<p class="righs">$righs</a>
-		<p class="address">$address</a>
-		<p class="phone">$phone</a>
-		<p class="developBy">
-			$developBy <a href="$urlBillinBuddy" rel="external">$groupWork</a>
+		<p class="powered-by">
+			#language ("powered-by") <a href="http://www.liferay.com" rel="external">Liferay</a>
 		</p>
 	</footer>
 </div>
