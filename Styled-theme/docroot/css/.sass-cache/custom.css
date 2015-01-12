@@ -1,7 +1,8 @@
 /* ---------- Base styles ---------- */
 body {
   background: #FFF;
-  font-size: 11px; }
+  font-size: 11px;
+  font-family: "Open Sans",sans-serif; }
 
 a {
   color: #5B677D;
@@ -434,7 +435,8 @@ input[type="text"], input[type="password"], input[type="file"], input[type="subm
   color: #363636;
   display: block;
   font-size: 12px;
-  font-weight: 400;
+  /* font-weight: 400; */
+  font-weight: bold;
   margin-bottom: 2px;
   /* 
   font-weight: bold;
@@ -548,6 +550,13 @@ input[type="text"], input[type="password"], input[type="file"], input[type="subm
 .orange {
   color: #FF5408;
   /* cmyk(0, 67, 97, 0); */ }
+
+.sub-title {
+  font-family: "Raleway",Helvetica,sans-serif;
+  font-weight: 200;
+  margin-top: 3px;
+  font-size: 24px;
+  color: inherit; }
 
 /* .container {
     box-sizing: border-box;
