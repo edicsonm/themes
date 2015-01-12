@@ -1,0 +1,14 @@
+#*
+This file allows you to override and define new Velocity variables.
+*#
+#set( $developBy = "Develop by")
+#set( $groupWork = "BillingBuddy")
+##set( $groupWork = "Edicson Morales Torres")
+#set( $urlBillinBuddy = "http://www.billingbuddy.com/")
+#set( $righs = "Copyright &#169; 2014 BillingBuddy")
+#set( $address = "Sydney. Australia.")
+#set( $phone = "+61 000 00 00")
+#set( $respaldo = "Un proyecto con el respaldo de")
+#set( $show_site_name = false)
+#set( $iconoRedSocial_height = 128)
+#set( $iconoRedSocial_width = 128)

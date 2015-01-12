@@ -2102,7 +2102,7 @@ body > .lfr-menu-list, body > .lfr-menu-list ul, .lfr-actions, .aui-dialog-conte
 /* ---------- Base styles ---------- */
 body {
   background: #0769ad;
-  font-size: 11px; }
+  font-size: 12px; }
 
 a {
   color: #5B677D;
@@ -2510,6 +2510,7 @@ hr, .separator {
 
 /* ---------- Incluided ---------- */
 .sub-title {
+  font-weight: bolder;
   font-size: 16px;
   color: #0769ad;
   font-size: 1.3em;
@@ -2517,7 +2518,8 @@ hr, .separator {
   text-shadow: 0 1px 1px #fff; }
 
 .information {
-  font-size: 14px; }
+  font-size: 1.7em;
+  padding: 30px 0 1px 1px; }
 
 .red {
   color: #FF0000; }
@@ -2537,25 +2539,26 @@ p.developBy {
   margin: 1px;
   font-family: times;
   padding: 0 0 10px 0;
+  font-size: 12px;
   /* text-align: center;
   color: black;
   font-size: 12px; */ }
 
 p.phone {
   color: #777;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 130%;
   margin: 10px 0 0; }
 
 p.address {
   color: #777;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 130%;
   margin: 10px 0 0; }
 
 p.righs {
   color: #777;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 130%;
   margin: 10px 0 0; }
 
@@ -2566,4 +2569,16 @@ p.righs {
   margin: 15px 0;
   padding: 10px 20px;
   position: relative; }
+
+/* .aui-field aui-field-text {
+	background-color: red;
+}
+
+.aui-field-content {
+    display: flex;
+}
+
+.aui-field-element {
+	
+} */
 

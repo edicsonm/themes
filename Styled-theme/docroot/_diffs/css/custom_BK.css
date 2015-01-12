@@ -1,0 +1,299 @@
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+
+
+body {
+    background: none repeat scroll 0 0 #FFF;
+    font-size: 11px;
+}
+
+#wrapper {
+    background: none repeat scroll 0 center rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    max-width: 90%;
+    min-width: 960px;
+    position: relative;
+}
+
+#banner {
+	background: none repeat scroll 0 center rgba(0, 0, 0, 0);
+	height: auto;
+	margin-top: 1.4em;
+	position: relative;
+	z-index: 210;
+	display:block;
+}
+
+#navigation {
+    /* background: url("/BB-theme/images/navigation/bg.png") repeat-x scroll 0 0 #414445; */
+    clear: both;
+    margin: 0 auto 5px;
+    min-height: 2.2em;
+    padding: 0 5px;
+    position: relative;
+    z-index: 210;
+}
+
+#navigation ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 3px;
+}
+
+#navigation li, #navigation a {
+    display: inline-block;
+}
+
+
+#navigation li {
+    position: relative;
+    vertical-align: middle;
+    background: url("../images/line.jpg") no-repeat scroll 0 center rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    display: table-cell;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+}
+
+li.current_page_item a {
+    color: #007be1 !important;
+}
+
+#navigation a {
+    color: #555555;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 0 1px;
+    padding: 3px 15px;
+    text-decoration: none;
+}
+
+#navigation .yui3-dd-drop a {
+    cursor: move;
+}
+
+
+#navigation .selected a, #navigation li.hover a, #navigation a:hover, #navigation a:focus, #navigation .child-menu li a, #navigation .yui3-dd-dragging, .lfr-navigation-proxy {
+	/* background: #313334;
+	color: #FFF;
+	outline: 0;
+	text-shadow: -1px -1px #000; */
+	border-bottom: 3px solid #005fae;
+}
+
+#skip-to-content, #banner h2, #banner h3, #navigation h1, .site-breadcrumbs h1 {
+    clip: rect(0px, 0px, 0px, 0px);
+    position: absolute;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    margin: 1em 0;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+---------- Site breadcrumbs ----------
+
+.site-breadcrumbs {
+	margin: 0 0 5px;
+	width: auto;
+}
+
+.site-breadcrumbs ul {
+	background-color: #FFF;
+	border: 1px solid #DEDEDE;
+	border-color: #C0C2C5;
+	margin: 0;
+}
+
+.site-breadcrumbs li {
+	background-image: none;
+	margin-right: 0;
+	padding-left: 0.75em;
+	padding-right: 0;
+}
+
+.site-breadcrumbs li span {
+	background: url(@theme_image_path@/common/breadcrumbs.png) no-repeat 100% 50%;
+	display: block;
+	padding: 0.5em 15px 0.5em 0;
+}
+
+.site-breadcrumbs li span a {
+	text-decoration: none;
+}
+
+.site-breadcrumbs li.first a, .site-breadcrumbs li.only a {
+	color: #369;
+	font-weight: bold;
+}
+
+.site-breadcrumbs li.last a {
+	color: #4B5567;
+	font-size: 1.3em;
+}
+
+.site-breadcrumbs .last {
+	font-size: 1em;
+	margin-top: 0;
+	padding-right: 0;
+}
+
+.site-breadcrumbs .last span {
+	background-image: none;
+	padding: 0;
+}
+
+/* .site-breadcrumbs li span {
+	background: url(@theme_image_path@/common/breadcrumbs.png) no-repeat 100% 50%;
+	display: block;
+	padding: 0.5em 15px 0.5em 0;
+}
+
+.site-breadcrumbs ul {
+    background-color: #fff;
+    border: 1px solid #c0c2c5;
+    margin: 0;
+}
+
+.breadcrumbs:before, .breadcrumbs:after {
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.breadcrumbs:after {
+    clear: both;
+}
+
+.breadcrumbs:before, .breadcrumbs:after {
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+} */
+
+.logo .current-site, #navigation, #navigation a, .portlet, .portlet-topper, .site-breadcrumbs ul, .aui-form-validator-message {
+    border-radius: 4px;
+}
+
+.site-breadcrumbs {
+    margin: 0 0 5px;
+    width: auto;
+}
+
+.table {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 5px;
+	width:100%;
+}
+
+.row {
+	display: table;
+	border: 1px;
+	width:100%;
+}
+
+.label{
+	font-weight: bold;
+}
+
+.column1-4{
+	display: table-cell;
+	float:left;
+	padding: 0px 0px 0px 0px;
+	width:25%;
+}
+.column2-4{
+	display: table-cell;
+	float:left;
+	padding: 0px 0px 0px 0px;
+	width:25%;
+}
+.column3-4{
+	display: table-cell;
+	float:left;
+	padding: 0px 0px 0px 0px;
+	width:25%;
+}
+.column4-4{
+	display: table-cell;
+	float:left;
+	padding: 0px 0px 0px 0px;
+	width:25%;
+}
+
+.column1-2{
+	display: table-cell;
+	float:left;
+	padding: 0px 0px 0px 0px;
+	width:50%;
+}
+.column2-2{
+	display: table-cell;
+	float:left;
+	padding: 0px 0px 0px 0px;
+	width:50%;
+}
+
+.column1-1{
+	display: flex;
+	display: table-cell;
+	float:left;
+	padding: 0px 0px 0px 0px;
+	width:100%;
+	vertical-align: baseline;
+}
+
+.order-number {
+	font-weight: bolder;
+    color: #000;
+    font-size: 1.3em;
+    margin-bottom: 0;
+    text-shadow: 0 1px 1px #fff;
+}
+
+.order-information {
+    font-weight: normal;
+    color: #000;
+    font-size: 12px;
+    margin-bottom: 0;
+    text-shadow: 0 1px 1px #fff;
+}
+
+.section {
+	background-color: #eee;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.red {
+	color: #FF0000;
+}
+
+.blue {
+	color: #001AB9;
+	/* cmyk(100, 89, 22, 7); */
+}
+
+.green{
+	color: #00b200;
+}
+
+.orange {
+	color: #FF5408;
+	/* cmyk(0, 67, 97, 0); */
+}
+
