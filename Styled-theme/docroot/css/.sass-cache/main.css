@@ -2100,7 +2100,8 @@ body > .lfr-menu-list, body > .lfr-menu-list ul, .lfr-actions, .aui-dialog-conte
 
 /* ---------- Base styles ---------- */
 body {
-  background: #FFF;
+  background: url(@theme_image_path@/fondo.jpg) repeat scroll 0 0 #f8f8f8;
+  /* background: #FFF; */
   font-size: 11px;
   font-family: "Open Sans",sans-serif; }
 
@@ -2324,10 +2325,13 @@ li.current_page_item a {
   text-align: left; }
 
 .portlet-topper {
-  background: #d4d4d4 url(@theme_image_path@/portlet/header_bg.png) repeat-x 0 0;
+  /* background: #D4D4D4 url(@theme_image_path@/portlet/header_bg.png) repeat-x 0 0; */
   border: 1px solid;
-  border-color: #C8C9CA #9E9E9E #9E9E9E #C8C9CA;
-  font-size: 1.1em; }
+  /* border-color: #C8C9CA #9E9E9E #9E9E9E #C8C9CA; */
+  font-size: 1.1em;
+  /* background-color: #31708f; */
+  background-color: #d9edf7;
+  border-color: #bce8f1; }
 
 .portlet-title {
   float: none;
@@ -2374,6 +2378,9 @@ li.current_page_item a {
 
 .ie6 .portlet-topper {
   zoom: 1; }
+
+.portlet-title-text {
+  color: #31708f; }
 
 /* ---------- Footer ---------- */
 #footer {
@@ -2630,7 +2637,8 @@ input[type="text"], input[type="password"], input[type="file"], input[type="subm
   text-shadow: 0 1px 1px #fff; }
 
 .section {
-  background-color: #eee;
+  background-color: #428bca;
+  color: #FFF;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   margin: 15px 0;
