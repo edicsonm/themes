@@ -2388,6 +2388,7 @@ li.current_page_item a {
   border: 1px solid #c8c9ca;
   border-radius: 4px;
   padding: 20px 20px;
+  margin-bottom: 20px;
   /* background: url(@theme_image_path@/bg-footer.png) repeat-x scroll 0 0 #364956;
   color: #9fb5c1;
   font-size: 11px;
@@ -2637,8 +2638,10 @@ input[type="text"], input[type="password"], input[type="file"], input[type="subm
   text-shadow: 0 1px 1px #fff; }
 
 .section {
-  background-color: #428bca;
-  color: #FFF;
+  /* background-color: #428bca; */
+  background-color: #d9edf7;
+  /* color: #FFF; */
+  color: #31708f;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   margin: 15px 0;
