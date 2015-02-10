@@ -178,7 +178,7 @@ hr, .separator {
     background: url(@theme_image_path@/line.jpg) no-repeat scroll 0 center rgba(0, 0, 0, 0);
     box-sizing: border-box;
     display: table-cell;
-    height: 70px;
+    height: 50px;
     text-align: center;
     vertical-align: middle;
     width: 20%;
@@ -220,7 +220,9 @@ hr, .separator {
 }
 
 #navigation li.hover .child-menu {
-	background: #1E2529;
+	/* background: #c8c9ca; */
+	background: url(@theme_image_path@/fondo.jpg) repeat scroll 0 0 #f8f8f8;
+	border: 1px solid #bce8f1;
 	display: block;
 	position: absolute;
 	width: 200px;
@@ -252,11 +254,12 @@ hr, .separator {
 }
 
 #navigation .child-menu li a:hover, #navigation li a.active {
-	background-color: #020509;
+	/* background-color: #020509; */
 }
 
 #navigation .child-menu .selected a {
-	background: #020509 url(@theme_image_path@/navigation/bullet_selected.png) no-repeat 5px 50%;
+	background: #d9edf7 url(@theme_image_path@/navigation/bullet_selected.png) no-repeat 5px 50%;
+	/* background: url(@theme_image_path@/navigation/bullet_selected.png) no-repeat 5px 50%; */
 }
 
 .nav-menu-style-arrows ul {
