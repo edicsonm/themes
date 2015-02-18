@@ -637,6 +637,45 @@ input[type="text"], input[type="password"], input[type="file"], input[type="subm
 	vertical-align: baseline;
 }
 
+.column1-3{
+	display: table-cell;
+	float:left;
+	padding: 0px 0px 0px 0px;
+	width:33%;
+}
+.column2-3{
+	display: table-cell;
+	float:left;
+	padding: 0px 0px 0px 0px;
+	width:33%;
+}
+.column3-3{
+	display: table-cell;
+	float:left;
+	padding: 0px 0px 0px 0px;
+	width:33%;
+}
+
+
+.column1-3-Report{
+	display: table-cell;
+	float:left;
+	padding: 0px 0px 0px 0px;
+	width:40%;
+}
+.column2-3-Report{
+	display: table-cell;
+	float:left;
+	padding: 0px 0px 0px 0px;
+	width:40%;
+}
+.column3-3-Report{
+	display: table-cell;
+	float:left;
+	padding: 0px 0px 0px 0px;
+	width:20%;
+}
+
 .order-number {
 	font-weight: bolder;
     color: #000;
