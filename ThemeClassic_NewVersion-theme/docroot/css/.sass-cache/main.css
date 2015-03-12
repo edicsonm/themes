@@ -3666,6 +3666,10 @@ body:first-of-type .portlet-content:hover .lfr-icon-actions .taglib-text {
   border-color: black;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; }
 
+.aui dd {
+  margin-bottom: 10px;
+  margin-left: 10px; }
+
 /* .aui .control-group.error .control-label, .aui .control-group.error .help-block, .aui .control-group.error .help-inline {
     background-color: #fee5e2;
     border-color: #fcaca5;
