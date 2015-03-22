@@ -1552,6 +1552,20 @@
   vertical-align: middle;
   padding: 10px; }
 
+#columna1-1 {
+  display: table-cell;
+  border: 0px solid #000;
+  vertical-align: middle;
+  padding: 10px;
+  width: 100%; }
+
+#columna1-2, #columna2-2 {
+  display: table-cell;
+  border: 0px solid #000;
+  vertical-align: middle;
+  padding: 10px;
+  width: 50%; }
+
 #columna1-3, #columna2-3, #columna3-3 {
   display: table-cell;
   border: 0px solid #000;
