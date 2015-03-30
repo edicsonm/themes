@@ -3721,8 +3721,7 @@ body:first-of-type .portlet-content:hover .lfr-icon-actions .taglib-text {
   width: 100%;
   border: 0px solid #000;
   text-align: left;
-  margin: 0 auto;
-  border-style: none none solid; }
+  margin: 0 auto; }
 
 #contenidos {
   display: table-row; }

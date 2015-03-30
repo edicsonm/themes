@@ -1,5 +1,7 @@
-<nav class="$nav_css_class navbar site-navigation" id="navigation" role="navigation">
-	<div class="navbar-inner">
+##	<nav class="$nav_css_class navbar site-navigation" id="navigation" role="navigation">
+<nav class="$nav_css_class site-navigation" id="navigation" role="navigation">
+##	<div class="navbar-inner">
+	<div class="">
 		<div class="collapse nav-collapse">
 			<ul aria-label="#language ("site-pages")" class="nav nav-collapse" role="menubar">
 				#foreach ($nav_item in $nav_items)

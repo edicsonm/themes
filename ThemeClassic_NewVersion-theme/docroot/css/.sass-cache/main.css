@@ -3820,91 +3820,62 @@ text.labelPoint {
   font: 10px Arial;
   fill: #008cdd; }
 
-/* 
-fieldset {
-	border: 16px solid #CCCCCC;
-	margin: 10px;
-	padding: 10px;
-	font-size: 23px;
-}
+.izquierdo {
+  display: block; }
 
-legend {
-	font-size: 20px;
-	font-weight: bold;
-}
+.l-reports--nav {
+  float: left;
+  width: 25%; }
 
-input[type=text], textarea, select {
-	border: 1px solid #777;
-	padding: 3px;
-}
+.l-reports__sidebar {
+  width: 80%; }
 
-.aui-form-validator-stack-error {
-	color: red;
-	display: block;
-	font-weight: normal;
-	font-style: italic;
-	margin: 3px 0;
-}
+.sidebar-item {
+  border-radius: 3px;
+  color: #85898c;
+  cursor: pointer;
+  display: block;
+  font-weight: 500;
+  line-height: 16px;
+  min-height: 34px;
+  padding: 9px 22px;
+  position: relative; }
 
-.aui-form-validator-error-container {
-	
-}
+.l-reports__content {
+  float: left;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  width: 75%; }
 
-.aui-form-validator-valid-container {
-	
-}
+#headingLeft {
+  width: 10%;
+  display: table-cell;
+  border: 0px solid #000;
+  vertical-align: middle;
+  padding: 10px;
+  /* background-color: red; */ }
 
-.aui-form-validator-error {
-	background: lightPink;
-}
+#headingCenter {
+  width: 50%;
+  display: table-cell;
+  border: 0px solid #000;
+  vertical-align: middle;
+  padding: 10px;
+  /* background-color: black; */ }
 
-.aui-form-validator-valid {
-	background: lightGreen;
-}
+#headingRight {
+  width: 40%;
+  display: table-cell;
+  border: 0px solid #000;
+  vertical-align: middle;
+  padding: 10px;
+  /* background-color: black; */ }
 
-.help-inline {
-	display: inline;
-	display: table-row;
+/* #banner {
+	background-color: green;
+	width: 100%;	
 } */
-/* .container {
-    box-sizing: border-box;
-    display: block;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 0 20px;
-}
-
-.col-row {
-    overflow: hidden;
-}
-
-
-.col-row:after {
-    clear: both;
-}
-
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
-    box-sizing: border-box;
-    float: left;
-    padding: 0 10px;
-} */
-/* .grid_box {
-    width: 33.33%;
-    padding: 20px;
-    box-sizing: border-box;
-    float: left;
-    padding: 0 10px;
-}
-
-.grid_box.text_box {
-    padding: 20px;
-}
-
-.grid_box.size_8 {
-    width: 460px;
-} */
-/* footer h2 {
-    color: #fff;
-    font-size: 30px;
-} */
+#wrapper {
+  padding: 1em 1em 0; }
 
