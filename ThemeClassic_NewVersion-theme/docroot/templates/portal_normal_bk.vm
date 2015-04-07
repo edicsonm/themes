@@ -18,41 +18,14 @@
 
 $theme.include($body_top_include)
 
-#dockbar()
+## #dockbar()
 
 <div class="container-fluid" id="wrapper">
 	<header id="banner" role="banner">
 		
-##		<div id="contenedor">
-##			<div id="contenidos">
-##				<div id="headingLeft">
-##					<a class="$logo_css_class" href="$site_default_url" title="#language_format ("go-to-x", [$site_name])">
-##						<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />
-##						#if ($show_site_name)
-##							<span class="site-name" title="#language_format ("go-to-x", [$site_name])">
-##								$site_name
-##							</span>
-##						#end
-##					</a>
-##				</div>
-##				
-##				<div id="headingCenter">
-##					#if ($has_navigation || $is_signed_in)
-##						#parse ("$full_templates_path/navigation.vm")
-##					#end
-##				</div>
-##				
-##				<div id="headingRight">
-##					#dockbar()
-##				</div>
-##			</div>
-##		</div>
-		
-		
-		
-		<div id="heading">
-			<div id="headingLeft">
-				<h1 class="site-title">
+		<div id="contenedor">
+			<div id="contenidos">
+				<div id="headingLeft">
 					<a class="$logo_css_class" href="$site_default_url" title="#language_format ("go-to-x", [$site_name])">
 						<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />
 						#if ($show_site_name)
@@ -61,17 +34,45 @@ $theme.include($body_top_include)
 							</span>
 						#end
 					</a>
-				</h1>
+				</div>
+				
+				<div id="headingCenter">
+					#if ($has_navigation || $is_signed_in)
+						#parse ("$full_templates_path/navigation.vm")
+					#end
+				</div>
+				
+				<div id="headingRight">
+					#dockbar()
+				</div>
 			</div>
-			<h2 class="page-title">
-				<span>$the_title</span>
-			</h2>
 		</div>
-		#if ($has_navigation || $is_signed_in)
-			#parse ("$full_templates_path/navigation.vm")
-		#end
+		
+		
+		
+##		<div id="heading">
+##			<div id="headingLeft">
+##				<h1 class="site-title">
+##					<a class="$logo_css_class" href="$site_default_url" title="#language_format ("go-to-x", [$site_name])">
+##						<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />
+##						#if ($show_site_name)
+##							<span class="site-name" title="#language_format ("go-to-x", [$site_name])">
+##								$site_name
+##							</span>
+##						#end
+##					</a>
+##				</h1>
+##			</div>
+##			<h2 class="page-title">
+##				<span>$the_title</span>
+##			</h2>
+##		</div>
+##		Inicia incluye navegacion
+##		#if ($has_navigation || $is_signed_in)
+##			#parse ("$full_templates_path/navigation.vm")
+##		#end
+##		Termina incluye navegacion
 	</header>
-	
 ##	<aside class="l-reports--nav hide-when-print">
 ##		#if ($has_navigation || $is_signed_in)
 ##			#parse ("$full_templates_path/navigation_izq.vm")
