@@ -993,14 +993,14 @@ div[class^='custom_'] {
     display: table-cell;
     border: 0px solid #000;
     vertical-align: middle;
-    padding: 10px;
+    padding: 0px;
 }
 
 #columna1-1 {
     display: table-cell;
     border: 0px solid #000;
     vertical-align: middle;
-    padding: 10px;
+    padding: 0px;
     width: 100%;
 }
 
@@ -1008,7 +1008,7 @@ div[class^='custom_'] {
     display: table-cell;
     border: 0px solid #000;
     vertical-align: middle;
-    padding: 10px;
+    padding: 0px;
     width: 50%;
 }
 
@@ -1016,7 +1016,7 @@ div[class^='custom_'] {
     display: table-cell;
     border: 0px solid #000;
     vertical-align: middle;
-    padding: 10px;
+    padding: 0px;
     width: 33%;
 }
 
@@ -1024,7 +1024,7 @@ div[class^='custom_'] {
     display: table-cell;
     border: 0px solid #000;
     vertical-align: middle;
-    padding: 10px;
+    padding: 0px;
     width: 25%;
 }
 
@@ -1095,7 +1095,7 @@ text.labelPoint{
 	font: 10px Arial;
 	fill: #008cdd;
 }
-
+/*  
 .izquierdo{
 	display: block;
 }
@@ -1135,7 +1135,7 @@ text.labelPoint{
     border: 0px solid #000;
     vertical-align: middle;
     padding: 10px;
-    /* background-color: red; */
+    background-color: red;
 }
 
 #headingCenter {
@@ -1144,7 +1144,7 @@ text.labelPoint{
     border: 0px solid #000;
     vertical-align: middle;
     padding: 10px;
-    /* background-color: black; */
+    background-color: black;
 }
 
 
@@ -1154,13 +1154,101 @@ text.labelPoint{
     border: 0px solid #000;
     vertical-align: middle;
     padding: 10px;
-    /* background-color: black; */
+    background-color: black;
 }
-/* #banner {
+#banner {
 	background-color: green;
 	width: 100%;	
-} */
+}  */
 
 #wrapper {
     padding: 1em 1em 0;
+}
+
+
+.aui input[type="color"], .aui input[type="date"], .aui input[type="datetime"], .aui input[type="datetime-local"], .aui input[type="month"], .aui input[type="number"], .aui input[type="password"], .aui input[type="text"], .aui input[type="time"], .aui input[type="week"], .aui input[type="email"], .aui input[type="url"], .aui input[type="search"], .aui input[type="tel"], .aui textarea, .aui .uneditable-input{
+	border-radius: 2px 2px 2px 2px;
+}
+
+.aui .control-group.success input, .aui .control-group.success select, .aui .control-group.success textarea {
+    border-radius: 2px 2px 2px 2px;
+}
+
+/*Inluidos y copiados desde el tema del la pagina de pago*/
+
+
+.aui body {
+	font-size: 12px;
+}
+
+.aui label {
+    font-size: 12px;
+}
+
+.aui .table {
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.aui .control-group {
+    margin-bottom: 8px;
+}
+
+.aui label {
+    margin-bottom: 0;
+}
+
+.aui legend {
+	font-size: 20px;
+	margin-bottom: 0;
+	line-height: 28px;
+}
+
+.aui .portlet-content, .aui .portlet-minimized .portlet-content-container {
+    border: 1px solid #eaeaea;
+    padding: 12px 10px 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.aui dl {
+    margin-bottom: 0px;
+}
+
+.aui .control-group {
+    margin-bottom: 0px;
+}
+
+ .aui select, .aui textarea, .aui input[type="text"], .aui input[type="password"], .aui input[type="datetime"], .aui input[type="datetime-local"], .aui input[type="date"], .aui input[type="month"], .aui input[type="time"], .aui input[type="week"], .aui input[type="number"], .aui input[type="email"], .aui input[type="url"], .aui input[type="search"], .aui input[type="tel"], .aui input[type="color"], .aui .uneditable-input {
+    border-radius: 2px;
+    color: #555;
+    display: inline-block;
+    font-size: 12px;
+    height: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+
+.aui select, .aui input[type="file"] {
+    height: 25px;
+    line-height: 30px;
+}
+
+.paymentDetails {
+	/* background: none repeat scroll 0 0 #d3d3d3;
+    color: #fff; */
+}
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aui .btn-group > .btn, .aui .btn-group > .dropdown-menu, .aui .btn-group > .popover {
+    font-size: 12px;
+}
+
+.aui .btn {
+	font-size: 12px;
 }

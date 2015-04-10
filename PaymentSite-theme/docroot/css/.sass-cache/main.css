@@ -3692,7 +3692,7 @@ body:first-of-type .portlet-content:hover .lfr-icon-actions .taglib-text {
   padding: 0;
   width: 100%; }
 
-.required, .digits {
+.required, .digits, .rangeLength, .email, .alpha {
   border: 1px solid;
   border-radius: 2px;
   margin-bottom: 20px;
@@ -3703,20 +3703,6 @@ body:first-of-type .portlet-content:hover .lfr-icon-actions .taglib-text {
   color: #b50303; }
 
 #contenedor {
-  /* -moz-border-bottom-colors: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  background: none repeat scroll 0 0 #fff;
-  border-color: #bbb #dadada #dadada;
-  border-image: none;
-  border-radius: 6px;
-  border-right: 1px solid #dadada;
-  border-style: solid;
-  border-width: 1px;
-  box-shadow: 0 1px 0 #ededed inset;
-  margin-bottom: 0px;
-  padding: 20px; */
   display: table;
   width: 100%;
   border: 0px solid #000;
@@ -3743,7 +3729,7 @@ body:first-of-type .portlet-content:hover .lfr-icon-actions .taglib-text {
   display: table-cell;
   border: 0px solid #000;
   vertical-align: middle;
-  padding: 10px;
+  padding: 0px;
   width: 50%; }
 
 #columna1-3, #columna2-3, #columna3-3 {
@@ -3820,91 +3806,54 @@ text.labelPoint {
   font: 10px Arial;
   fill: #008cdd; }
 
-/* 
-fieldset {
-	border: 16px solid #CCCCCC;
-	margin: 10px;
-	padding: 10px;
-	font-size: 23px;
-}
+.aui body {
+  font-size: 12px; }
 
-legend {
-	font-size: 20px;
-	font-weight: bold;
-}
+.aui label {
+  font-size: 12px; }
 
-input[type=text], textarea, select {
-	border: 1px solid #777;
-	padding: 3px;
-}
+.aui .control-group {
+  margin-bottom: 8px; }
 
-.aui-form-validator-stack-error {
-	color: red;
-	display: block;
-	font-weight: normal;
-	font-style: italic;
-	margin: 3px 0;
-}
+.aui label {
+  margin-bottom: 0; }
 
-.aui-form-validator-error-container {
-	
-}
+.aui legend {
+  font-size: 20px;
+  margin-bottom: 0;
+  line-height: 28px; }
 
-.aui-form-validator-valid-container {
-	
-}
+.aui .portlet-content, .aui .portlet-minimized .portlet-content-container {
+  border: 1px solid #eaeaea;
+  padding: 12px 10px 10px;
+  border-radius: 3px 3px 3px 3px; }
 
-.aui-form-validator-error {
-	background: lightPink;
-}
+.aui dl {
+  margin-bottom: 0px; }
 
-.aui-form-validator-valid {
-	background: lightGreen;
-}
+.aui .control-group {
+  margin-bottom: 0px; }
 
-.help-inline {
-	display: inline;
-	display: table-row;
-} */
-/* .container {
-    box-sizing: border-box;
-    display: block;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 0 20px;
-}
+.aui select, .aui textarea, .aui input[type="text"], .aui input[type="password"], .aui input[type="datetime"], .aui input[type="datetime-local"], .aui input[type="date"], .aui input[type="month"], .aui input[type="time"], .aui input[type="week"], .aui input[type="number"], .aui input[type="email"], .aui input[type="url"], .aui input[type="search"], .aui input[type="tel"], .aui input[type="color"], .aui .uneditable-input {
+  border-radius: 2px;
+  color: #555;
+  display: inline-block;
+  font-size: 12px;
+  height: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  padding: 4px 6px;
+  vertical-align: middle; }
 
-.col-row {
-    overflow: hidden;
-}
+.aui select, .aui input[type="file"] {
+  height: 25px;
+  line-height: 30px; }
 
+.paymentDetails {
+  	/* background: none repeat scroll 0 0 #d3d3d3;
+      color: #fff; */ }
 
-.col-row:after {
-    clear: both;
-}
-
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
-    box-sizing: border-box;
-    float: left;
-    padding: 0 10px;
-} */
-/* .grid_box {
-    width: 33.33%;
-    padding: 20px;
-    box-sizing: border-box;
-    float: left;
-    padding: 0 10px;
-}
-
-.grid_box.text_box {
-    padding: 20px;
-}
-
-.grid_box.size_8 {
-    width: 460px;
-} */
-/* footer h2 {
-    color: #fff;
-    font-size: 30px;
-} */
+#content {
+  margin-left: auto;
+  margin-right: auto; }
 
