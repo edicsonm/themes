@@ -432,4 +432,16 @@
   @media (max-width: 1140px) {
     .aui .dockbar-split .dockbar .info-items {
       width: 515px; } }
+  @media (max-width: 979px) {
+    .aui #navigation {
+      display: none; }
+      .aui #navigation.open {
+        display: block; }
+    .aui .dockbar-split .dockbar {
+      height: auto;
+      position: relative; }
+      .aui .dockbar-split .dockbar .navbar-inner {
+        width: auto; }
+    .aui .user-avatar-image {
+      width: 18px; } }
 

@@ -947,7 +947,7 @@ div[class^='custom_'] {
     margin-bottom: 12px;
 }
 
-.required, .digits {
+.required, .digits, .rangeLength, .maxLength, .minLength, .alpha{
     border: 1px solid;
     border-radius: 2px;
     margin-bottom: 20px;
@@ -1095,71 +1095,6 @@ text.labelPoint{
 	font: 10px Arial;
 	fill: #008cdd;
 }
-/*  
-.izquierdo{
-	display: block;
-}
-
-.l-reports--nav {
-    float: left;
-    width: 25%;
-}
-
-.l-reports__sidebar {
-    width: 80%;
-}
-
-.sidebar-item {
-    border-radius: 3px;
-    color: #85898c;
-    cursor: pointer;
-    display: block;
-    font-weight: 500;
-    line-height: 16px;
-    min-height: 34px;
-    padding: 9px 22px;
-    position: relative;
-}
-
-.l-reports__content {
-    float: left;
-    height: 100%;
-    min-height: 100%;
-    position: relative;
-    width: 75%;
-}
-
-#headingLeft {
-	width: 10%;
-	display: table-cell;
-    border: 0px solid #000;
-    vertical-align: middle;
-    padding: 10px;
-    background-color: red;
-}
-
-#headingCenter {
-	width: 50%;
-	display: table-cell;
-    border: 0px solid #000;
-    vertical-align: middle;
-    padding: 10px;
-    background-color: black;
-}
-
-
-#headingRight {
-	width: 40%;
-	display: table-cell;
-    border: 0px solid #000;
-    vertical-align: middle;
-    padding: 10px;
-    background-color: black;
-}
-#banner {
-	background-color: green;
-	width: 100%;	
-}  */
 
 #wrapper {
     padding: 1em 1em 0;
@@ -1218,7 +1153,7 @@ text.labelPoint{
     margin-bottom: 0px;
 }
 
- .aui select, .aui textarea, .aui input[type="text"], .aui input[type="password"], .aui input[type="datetime"], .aui input[type="datetime-local"], .aui input[type="date"], .aui input[type="month"], .aui input[type="time"], .aui input[type="week"], .aui input[type="number"], .aui input[type="email"], .aui input[type="url"], .aui input[type="search"], .aui input[type="tel"], .aui input[type="color"], .aui .uneditable-input {
+.aui select, .aui textarea, .aui input[type="text"], .aui input[type="password"], .aui input[type="datetime"], .aui input[type="datetime-local"], .aui input[type="date"], .aui input[type="month"], .aui input[type="time"], .aui input[type="week"], .aui input[type="number"], .aui input[type="email"], .aui input[type="url"], .aui input[type="search"], .aui input[type="tel"], .aui input[type="color"], .aui .uneditable-input {
     border-radius: 2px;
     color: #555;
     display: inline-block;
@@ -1233,6 +1168,21 @@ text.labelPoint{
 .aui select, .aui input[type="file"] {
     height: 25px;
     line-height: 30px;
+}
+
+.aui pre {
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0 0 10px;
+    padding: 9.5px;
+    padding-left:2em;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
 }
 
 .paymentDetails {
